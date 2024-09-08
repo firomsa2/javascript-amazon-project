@@ -1,3 +1,5 @@
+import {cart} from '../data/cart.js';
+
 let productsHTML = '';
 products.forEach((product) => {
   productsHTML +=`
@@ -44,7 +46,7 @@ products.forEach((product) => {
         <img src="images/icons/checkmark.png">
         Added
       </div>
-
+v
       <button class="add-to-cart-button button-primary js-add-to-cart" data-product-id = "${product.id}">
         Add to Cart
       </button>
@@ -86,3 +88,4 @@ document.querySelectorAll('.js-add-to-cart')
         
     });
   });
+  console.log("firomsa")
