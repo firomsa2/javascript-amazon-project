@@ -28,3 +28,5 @@ export function updateCartQuantity(){
   document.querySelector('.js-cart-quantity')
     .innerHTML = cartQuantity;
 }
+console.log("hyfcddctrctyfv");
+//get work on it
