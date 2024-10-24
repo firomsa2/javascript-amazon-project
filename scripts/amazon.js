@@ -68,4 +68,7 @@ document.querySelectorAll('.js-add-to-cart')
       
     });
   });
-  
+  console.log("firomsa")
+  if (4 > 6) {
+    console.log("math done")
+  }
